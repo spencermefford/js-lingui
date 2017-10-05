@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-es2015-classes",
+    "transform-runtime",
+    "syntax-dynamic-import",
+    "react-hot-loader/babel",
+    "lingui-transform-js",
+    "lingui-transform-react"
+  ],
+  "presets": [
+    "env",
+    "react",
+    "stage-0",
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "dynamic-import-node"
+      ]
+    }
+  }
+}
